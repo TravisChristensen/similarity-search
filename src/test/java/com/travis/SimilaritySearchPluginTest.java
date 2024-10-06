@@ -1,13 +1,13 @@
-package com.example;
+package com.travis;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class SimilaritySearchPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(SimilaritySearchPlugin.class);
 		RuneLite.main(args);
 	}
 }
