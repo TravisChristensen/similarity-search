@@ -1,12 +1,12 @@
-package com.travis;
+package com.tss;
 
-import com.travis.similarity.NGramPositionalCosineSimilarity;
+import com.tss.similarity.CharNGramCosineSimilarity;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.text.similarity.*;
 
 @Slf4j
 public enum MatchingStrategy {
-    BIGRAM_COSINE(new NGramPositionalCosineSimilarity(2)),
+    BIGRAM_COSINE(new CharNGramCosineSimilarity(2)),
     JACCARD(new JaccardSimilarity()),
     JARO_WRINKLER(new JaroWinklerSimilarity()),
     LEVENSHTEIN(new LevenshteinDistance());
@@ -28,11 +28,6 @@ public enum MatchingStrategy {
         textToCompare = textToCompare.toLowerCase();
 
         double similarityResult = scorer.apply(query, textToCompare).doubleValue();
-        String[] splitText = textToCompare.split(" ");
-        for (String word : splitText) {
-            double splitSimilarityResult = scorer.apply(query, word).doubleValue();
-            similarityResult = Math.max(similarityResult, splitSimilarityResult);
-        }
 
         // Normalize score for specific algorithms
         switch (this) {
@@ -44,7 +39,7 @@ public enum MatchingStrategy {
             }
             case LEVENSHTEIN: {
                 int maxLength = Math.max(query.length(), textToCompare.length());
-                score = (1.d - (similarityResult / (double) maxLength)) * 100;
+                score = (1.0 - (similarityResult / (double) maxLength)) * 100;
                 break;
             }
             default:

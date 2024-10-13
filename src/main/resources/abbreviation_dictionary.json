@@ -1,0 +1,630 @@
+{
+    "abyssal whip": [
+        "abby",
+        "whip"
+    ],
+    "armadyl crossbow": [
+        "acb"
+    ],
+    "armadyl chestplate": [
+        "acp"
+    ],
+    "armadyl chainskirt": [
+        "acs"
+    ],
+    "anti-dragon shield": [
+        "ads",
+        "anti",
+        "antid",
+        "antid shield"
+    ],
+    "abyssal dagger": [
+        "ad"
+    ],
+    "abyssal dagger (p)": [
+        "ad"
+    ],
+    "abyssal dagger (p+)": [
+        "ad"
+    ],
+    "abyssal dagger (p++)": [
+        "ads",
+        "adp"
+    ],
+    "armadyl godsword": [
+        "ags"
+    ],
+    "air rune": [
+        "air",
+        "airs"
+    ],
+    "necklace of anguish": [
+        "ang"
+    ],
+    "amulet of the damned": [
+        "aotd"
+    ],
+    "arcane spirit shield": [
+        "arc"
+    ],
+    "arclight": [
+        "arc"
+    ],
+    "kree'arra": [
+        "arma",
+        "arm"
+    ],
+    "ava's attractor": [
+        "avas"
+    ],
+    "ava's accumulator": [
+        "avas"
+    ],
+    "ava's assembler": [
+        "avas"
+    ],
+    "avernic defender": [
+        "avernic",
+        "adef"
+    ],
+    "ancient wyvern shield": [
+        "aws"
+    ],
+    "bones to bananas": [
+        "b2b",
+        "btb"
+    ],
+    "bones to peaches": [
+        "b2p",
+        "btp"
+    ],
+    "dragon boots": [
+        "bank made"
+    ],
+    "barb-tail harpoon": [
+        "barb"
+    ],
+    "big bones": [
+        "bbones"
+    ],
+    "bandos chestplate": [
+        "bcp"
+    ],
+    "amulet of blood fury": [
+        "bf"
+    ],
+    "barrows gloves": [
+        "bgloves"
+    ],
+    "bandos godsword": [
+        "bgs"
+    ],
+    "bird house": [
+        "bh"
+    ],
+    "bow of faerdhinen": [
+        "bowfa",
+        "bofa",
+        "fbow"
+    ],
+    "toxic blowpipe": [
+        "bp",
+        "bpipe",
+        "tbp"
+    ],
+    "verac's brassard": [
+        "brassy"
+    ],
+    "berserker ring": [
+        "bring"
+    ],
+    "blessed spirit shield": [
+        "bss"
+    ],
+    "saradomin's blessed sword": [
+        "bss",
+        "sbs"
+    ],
+    "battlestaff": [
+        "bstaff"
+    ],
+    "twisted buckler": [
+        "buckler",
+        "tbuck"
+    ],
+    "dinh's bulwark": [
+        "bulwark",
+        "dinh's",
+        "dinny b",
+        "dinny",
+        "door"
+    ],
+    "combat achievements": [
+        "ca",
+        "cas"
+    ],
+    "cannonball": [
+        "cball"
+    ],
+    "crossbow": [
+        "cbow",
+        "cb"
+    ],
+    "crystal bow": [
+        "cbow",
+        "cb"
+    ],
+    "craw's bow": [
+        "cbow",
+        "cb"
+    ],
+    "crystal halberd": [
+        "chally"
+    ],
+    "scythe of vitur": [
+        "scy"
+    ],
+    "fire cape": [
+        "cheese cape",
+        "fcape",
+        "fc"
+    ],
+    "clue scroll": [
+        "clue",
+        "clueing"
+    ],
+    "collection log": [
+        "col log",
+        "clog",
+        "cl",
+        "glog"
+    ],
+    "dragon 2h sword": [
+        "d2h"
+    ],
+    "dragon bolts": [
+        "dbolts",
+        "d bolts"
+    ],
+    "dragon bones": [
+        "dbones",
+        "d bones"
+    ],
+    "dark bow": [
+        "dbow",
+        "ds"
+    ],
+    "dragon crossbow": [
+        "dcb"
+    ],
+    "dragon chainbody": [
+        "dchain"
+    ],
+    "dragon claws": [
+        "dclaws"
+    ],
+    "dragon dagger": [
+        "dd"
+    ],
+    "dragon dagger(p)": [
+        "dd"
+    ],
+    "dragon dagger(p+)": [
+        "dd"
+    ],
+    "dragon dagger(p++)": [
+        "dd",
+        "dds",
+        "ddp"
+    ],
+    "dragon defender": [
+        "dd",
+        "ddef"
+    ],
+    "dexterous prayer scroll": [
+        "dex"
+    ],
+    "dragon full helm": [
+        "dfh"
+    ],
+    "dragonfire shield": [
+        "dfs"
+    ],
+    "dragonfire ward": [
+        "dfw",
+        "dfward"
+    ],
+    "dragon halberd": [
+        "dhally"
+    ],
+    "dharok's greataxe": [
+        "dh axe"
+    ],
+    "dragon hunter crossbow": [
+        "dhcb",
+        "dhc"
+    ],
+    "dragon hunter lance": [
+        "dhl",
+        "lance"
+    ],
+    "dragon platelegs": [
+        "dlegs"
+    ],
+    "dragon med helm": [
+        "dmed"
+    ],
+    "dragon platebody": [
+        "dplate"
+    ],
+    "dragon spear": [
+        "ds"
+    ],
+    "magic shortbow": [
+        "ds",
+        "msb",
+        "msbi"
+    ],
+    "dragon scimitar": [
+        "ds",
+        "dsc"
+    ],
+    "dragon plateskirt": [
+        "dskirt"
+    ],
+    "dragon warhammer": [
+        "dwh",
+        "dwar"
+    ],
+    "ectophial": [
+        "ecto"
+    ],
+    "eldritch nightmare staff": [
+        "eldritch",
+        "eld"
+    ],
+    "chaos elemental": [
+        "ele"
+    ],
+    "elysian spirit shield": [
+        "ely"
+    ],
+    "pure essence": [
+        "ess",
+        "essence",
+        "pess",
+        "p ess"
+    ],
+    "ferocious gloves": [
+        "fero",
+        "feros"
+    ],
+    "neitiznot faceguard": [
+        "fg",
+        "faceguard"
+    ],
+    "fighter torso": [
+        "ft",
+        "torso"
+    ],
+    "amulet of fury": [
+        "fury"
+    ],
+    "amulet of glory": [
+        "glory"
+    ],
+    "granite maul": [
+        "gmaul",
+        "maul"
+    ],
+    "halberd": [
+        "hally"
+    ],
+    "harmonised nightmare staff": [
+        "harm",
+        "harmo"
+    ],
+    "heavy ballista": [
+        "hb"
+    ],
+    "infernal cape": [
+        "inf"
+    ],
+    "tzrek-jad": [
+        "jad"
+    ],
+    "primordial boots": [
+        "jordans",
+        "prims"
+    ],
+    "karil's crossbow": [
+        "kcb",
+        "kbow",
+        "kxb"
+    ],
+    "kodai wand": [
+        "kodai"
+    ],
+    "karambwan paste": [
+        "kp"
+    ],
+    "karil's leatherskirt": [
+        "kskirt"
+    ],
+    "karil's leathertop": [
+        "ktop"
+    ],
+    "law rune": [
+        "law",
+        "laws"
+    ],
+    "lightbearer": [
+        "lb"
+    ],
+    "leaf-bladed battleaxe": [
+        "lba",
+        "lbba",
+        "lbb"
+    ],
+    "leaf-bladed sword": [
+        "lbs"
+    ],
+    "ring of life": [
+        "life",
+        "rol"
+    ],
+    "limpwurt root": [
+        "limp"
+    ],
+    "lobster": [
+        "lob",
+        "lobs",
+        "lobby"
+    ],
+    "longbow": [
+        "long"
+    ],
+    "lumbridge teleport": [
+        "lumby teleport"
+    ],
+    "magic shortbow (i)": [
+        "msb",
+        "msbi"
+    ],
+    "nature rune": [
+        "nat",
+        "nats"
+    ],
+    "helm of neitiznot": [
+        "nezzy",
+        "nez",
+        "neit",
+        "neitz"
+    ],
+    "nitroglycerin": [
+        "nitro"
+    ],
+    "occult necklace": [
+        "occult",
+        "occ"
+    ],
+    "shantay pass": [
+        "pass"
+    ],
+    "pegasian boots": [
+        "pegs",
+        "peggies"
+    ],
+    "phoenix necklace": [
+        "pneck"
+    ],
+    "potion": [
+        "pot",
+        "pots"
+    ],
+    "lobster pot": [
+        "pot",
+        "pots"
+    ],
+    "pot": [
+        "pot",
+        "pots"
+    ],
+    "pickaxe": [
+        "pick"
+    ],
+    "quest point cape": [
+        "qc",
+        "qpc"
+    ],
+    "rune 2h sword": [
+        "r2h"
+    ],
+    "ranger boots": [
+        "rangers",
+        "rngrs"
+    ],
+    "ghrazi rapier": [
+        "rapier",
+        "rap"
+    ],
+    "rune crossbow": [
+        "rcb"
+    ],
+    "ring of recoil": [
+        "recoil"
+    ],
+    "rune full helm": [
+        "rfh"
+    ],
+    "rune med helm": [
+        "rmh",
+        "rmed"
+    ],
+    "robin hood hat": [
+        "robin"
+    ],
+    "ring of suffering": [
+        "ros",
+        "suff",
+        "suffering"
+    ],
+    "ring of the gods": [
+        "rotg"
+    ],
+    "ring of wealth": [
+        "row",
+        "wealth"
+    ],
+    "rune platebody": [
+        "rpb"
+    ],
+    "rune warhammer": [
+        "rwh"
+    ],
+    "blade of saeldor": [
+        "salad blade"
+    ],
+    "salve amulet": [
+        "salve"
+    ],
+    "sanguinesti staff": [
+        "sang"
+    ],
+    "santa hat": [
+        "santa"
+    ],
+    "sapphire": [
+        "saph"
+    ],
+    "scythe": [
+        "scy"
+    ],
+    "seers ring": [
+        "seers"
+    ],
+    "serpentine helm": [
+        "serp"
+    ],
+    "saradomin godsword": [
+        "sgs"
+    ],
+    "shortbow": [
+        "short"
+    ],
+    "staff of light": [
+        "sol"
+    ],
+    "staff of the dead": [
+        "sotd"
+    ],
+    "spectral spirit shield": [
+        "spec"
+    ],
+    "saradomin sword": [
+        "ss"
+    ],
+    "trident of the swamp": [
+        "swamp"
+    ],
+    "swordfish": [
+        "sword",
+        "swordy"
+    ],
+    "tanzanite fang": [
+        "tanz"
+    ],
+    "bandos tassets": [
+        "tass",
+        "tassets",
+        "tassy",
+        "tassies"
+    ],
+    "twisted bow": [
+        "tbow"
+    ],
+    "abyssal tentacle": [
+        "tent"
+    ],
+    "kraken tentacle": [
+        "tent"
+    ],
+    "tome of fire": [
+        "tome",
+        "tof"
+    ],
+    "tormented bracelet": [
+        "torm",
+        "tor"
+    ],
+    "amulet of torture": [
+        "tort",
+        "torture"
+    ],
+    "toxic staff of the dead": [
+        "tsotd",
+        "tsod"
+    ],
+    "tuna potato": [
+        "tupo"
+    ],
+    "unidentified minerals": [
+        "unid",
+        "unids"
+    ],
+    "draconic visage": [
+        "vis",
+        "vissy"
+    ],
+    "vesta's longsword": [
+        "vls"
+    ],
+    "volatile nightmare staff": [
+        "voli",
+        "volly",
+        "vola"
+    ],
+    "verac's plateskirt": [
+        "vskirt"
+    ],
+    "elidinis' ward": [
+        "ward"
+    ],
+    "warhammer": [
+        "wh",
+        "war"
+    ],
+    "unholy book": [
+        "z book",
+        "zbook",
+        "zammy book"
+    ],
+    "unholy book page set": [
+        "z book",
+        "zbook",
+        "zammy book"
+    ],
+    "holy book": [
+        "s book",
+        "sbook",
+        "sara book"
+    ],
+    "holy book page set": [
+        "s book",
+        "sbook",
+        "sara book"
+    ],
+    "zenyte": [
+        "zenny",
+        "zenn"
+    ],
+    "zamorak godsword": [
+        "zgs"
+    ],
+    "zamorakian spear": [
+        "z spear",
+        "zspear",
+        "zammy spear",
+        "zs"
+    ]
+}

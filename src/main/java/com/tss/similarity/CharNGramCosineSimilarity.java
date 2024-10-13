@@ -1,18 +1,26 @@
-package com.travis.similarity;
+package com.tss.similarity;
 
 import org.apache.commons.text.similarity.SimilarityScore;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class NGramPositionalCosineSimilarity implements SimilarityScore<Double> {
+public class CharNGramCosineSimilarity implements SimilarityScore<Double> {
 
     private final int windowSize;
 
-    public NGramPositionalCosineSimilarity(int windowSize) {
+    public CharNGramCosineSimilarity(int windowSize) {
         this.windowSize = windowSize;
     }
 
+    /**
+     * Calculate cosine similarity between left and right CharSequence. If the left CharSequence is
+     * longer than the right + 1, this implementation will penalize the score by
+     * a factor of <code>right.length() / left.length()</code>.
+     * @param left the first CharSequence
+     * @param right the second CharSequence
+     * @return A cosine similarity score.
+     */
     @Override
     public Double apply(CharSequence left, CharSequence right) {
         Map<CharSequence, Double> leftVector = buildNGramVector(left);
@@ -26,7 +34,14 @@ public class NGramPositionalCosineSimilarity implements SimilarityScore<Double> 
             return 0.0;
         }
 
-        return dotProduct / (leftMagnitude * rightMagnitude);
+        double cosineSimilarity = dotProduct / (leftMagnitude * rightMagnitude);
+
+        if (left.length() > right.length() + 1) {
+            double rightUndersizedPenalty = (double) right.length() / left.length();
+            cosineSimilarity *= rightUndersizedPenalty;
+        }
+
+        return cosineSimilarity;
     }
 
     private Map<CharSequence, Double> buildNGramVector(CharSequence cs) {
@@ -34,8 +49,7 @@ public class NGramPositionalCosineSimilarity implements SimilarityScore<Double> 
 
         for (int i = 0; i <= cs.length() - windowSize; i++) {
             CharSequence nGram = cs.subSequence(i, i + windowSize);
-            double weight = 1.0 / (1 + i);  // Weight based on position
-            nGramVector.put(nGram, nGramVector.getOrDefault(nGram, 0.0) + weight);
+            nGramVector.put(nGram, nGramVector.getOrDefault(nGram, 0.0) + 1.0);
         }
 
         return nGramVector;
@@ -52,10 +66,10 @@ public class NGramPositionalCosineSimilarity implements SimilarityScore<Double> 
     }
 
     private double magnitude(Map<CharSequence, Double> frequencyMap) {
-        double magnitude = 0.0;
+        double sumOfSquares = 0.0;
         for (double freq : frequencyMap.values()) {
-            magnitude += Math.pow(freq, 2);
+            sumOfSquares += Math.pow(freq, 2);
         }
-        return Math.sqrt(magnitude);
+        return Math.sqrt(sumOfSquares);
     }
 }
